@@ -10,6 +10,7 @@ class TestExercise(unittest.TestCase):
     def test_reverse_list(self):
         expected = [5, 4, 3, 2, 1]
         actual = reverse_list([1, 2, 3, 4, 5])
+        print(actual)
         self.assertEqual(expected, actual)
 
         expected = [6, 5, 4, 3, 2, 1]
